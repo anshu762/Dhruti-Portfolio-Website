@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Dhruti Rajiv — Grade 12 student at Mallya Aditi International School. Business, Economics, Entrepreneurship & Social Impact. Founder of CraftGuard, Co-founder of Vellura Baking Co.">
+<title>Dhruti Rajiv · Business · Culture · Impact</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body class="is-loading">
+
+<!-- ============ CURSOR ============ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader">
+  <div class="loader-inner">
+    <svg class="loader-motif" viewBox="0 0 120 120" aria-hidden="true">
+      <g class="motif-g">
+        <path d="M60 8 L112 60 L60 112 L8 60 Z"/>
+        <path d="M60 28 L92 60 L60 92 L28 60 Z"/>
+        <path d="M60 46 L74 60 L60 74 L46 60 Z"/>
+      </g>
+    </svg>
+    <div class="loader-name">
+      <span>D</span><span>H</span><span>R</span><span>U</span><span>T</span><span>I</span>
+      <em>&nbsp;</em>
+      <span>R</span><span>A</span><span>J</span><span>I</span><span>V</span>
+    </div>
+    <p class="loader-tag">Business &nbsp;·&nbsp; Culture &nbsp;·&nbsp; Impact</p>
+    <div class="loader-bar"><i id="loaderBar"></i></div>
+  </div>
+</div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-wrap">
+    <a href="#home" class="brand">
+      <span class="brand-mark">DR</span>
+      <span class="brand-text">Dhruti&nbsp;Rajiv</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home"         class="nav-link active" data-sec="home">Home</a>
+      <a href="#about"        class="nav-link" data-sec="about">About</a>
+      <a href="#skills"       class="nav-link" data-sec="skills">Skills</a>
+      <a href="#education"    class="nav-link" data-sec="education">Education</a>
+      <a href="#projects"     class="nav-link" data-sec="projects">Projects</a>
+      <a href="#media"        class="nav-link" data-sec="media">Media</a>
+      <a href="#achievements" class="nav-link" data-sec="achievements">Awards</a>
+      <a href="#certificates" class="nav-link" data-sec="certificates">Certificates</a>
+      <a href="#activities"   class="nav-link" data-sec="activities">Activities</a>
+      <a href="#contact"      class="nav-link" data-sec="contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i><i class="fa-solid fa-sun"></i>
+      </button>
+      <a href="#contact" class="btn btn-gold btn-sm nav-cta">Let's Talk</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="nav-progress" id="navProgress"></div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mm-pattern"></div>
+  <nav class="mm-links">
+    <a href="#home"         class="mm-link"><em>01</em> Home</a>
+    <a href="#about"        class="mm-link"><em>02</em> About</a>
+    <a href="#skills"       class="mm-link"><em>03</em> Skills</a>
+    <a href="#education"    class="mm-link"><em>04</em> Education</a>
+    <a href="#projects"     class="mm-link"><em>05</em> Projects</a>
+    <a href="#media"        class="mm-link"><em>06</em> Media</a>
+    <a href="#achievements" class="mm-link"><em>07</em> Awards</a>
+    <a href="#certificates" class="mm-link"><em>08</em> Certificates</a>
+    <a href="#activities"   class="mm-link"><em>09</em> Activities</a>
+    <a href="#contact"      class="mm-link"><em>10</em> Contact</a>
+  </nav>
+  <div class="mm-foot">
+    <a href="https://www.linkedin.com/in/dhruti-rajiv" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/dhrutirajiv" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://youtu.be/4cu7g1N-FAc" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+    <a href="mailto:dhrutiirajiv10@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+  </div>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero-weave" aria-hidden="true"></div>
+  <div class="hero-blob blob-a"></div>
+  <div class="hero-blob blob-b"></div>
+  <div class="motif-field" id="motifField" aria-hidden="true"></div>
+
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow reveal"><i class="fa-solid fa-location-dot"></i> Bengaluru, Karnataka · India</span>
+
+      <h1 class="hero-title reveal">
+        <span class="line-1">Namaste, I'm</span>
+        <span class="line-2" id="heroName">Dhruti Rajiv</span>
+      </h1>
+
+      <div class="hero-type reveal">
+        <span class="type-pre">Exploring</span>
+        <span class="type-text" id="typeText"></span><span class="type-caret">|</span>
+      </div>
+
+      <p class="hero-lead reveal">
+        Grade 12 student at <strong>Mallya Aditi International School</strong>, building ventures where
+        <em>commerce meets culture</em> — from reviving Karnataka's Kasuti &amp; Ilkal crafts
+        to funding community welfare through enterprise.
+      </p>
+
+      <div class="hero-stats reveal">
+        <div class="stat"><b class="count" data-count="9" data-suffix="+">0</b><span>Projects</span></div>
+        <div class="stat"><b class="count" data-count="1500" data-suffix="+">0</b><span>Goods Sold</span></div>
+        <div class="stat"><b class="count" data-count="2.5" data-prefix="₹" data-suffix="L">0</b><span>Donated</span></div>
+        <div class="stat"><b class="count" data-count="15" data-suffix="+">0</b><span>Medals</span></div>
+      </div>
+
+      <div class="hero-btns reveal">
+        <a href="#projects" class="btn btn-primary">Explore My Work <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="#contact"  class="btn btn-ghost">Get In Touch <i class="fa-regular fa-paper-plane"></i></a>
+      </div>
+
+      <div class="hero-social reveal">
+        <a href="https://www.linkedin.com/in/dhruti-rajiv" target="_blank" rel="noopener" class="soc" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/dhrutirajiv" target="_blank" rel="noopener" class="soc" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://youtu.be/4cu7g1N-FAc" target="_blank" rel="noopener" class="soc" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:dhrutiirajiv10@gmail.com" class="soc" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <!-- PROFILE IMAGE (ARCH FRAME) -->
+    <div class="hero-visual reveal">
+      <div class="arch-stack">
+        <span class="arch-outline"></span>
+        <span class="arch-tint"></span>
+
+        <div class="arch-frame">
+          <!-- ▼ PLACEHOLDER: images/profile.jpg -->
+          <div class="img-holder">
+            <div class="img-fallback">
+              <i class="fa-solid fa-user-tie"></i>
+              <b>DR</b>
+              <small>Add images/profile.jpg</small>
+            </div>
+            <img src="images/profile.jpeg" alt="Dhruti Rajiv" loading="eager" onerror="this.remove()">
+          </div>
+          <span class="arch-shine"></span>
+        </div>
+
+        <div class="chip chip-1"><i class="fa-solid fa-chart-line"></i> Business Strategy</div>
+        <div class="chip chip-2"><i class="fa-solid fa-hand-holding-heart"></i> Social Impact</div>
+        <div class="chip chip-3"><i class="fa-solid fa-palette"></i> Craft Revival</div>
+        <span class="arch-dot"></span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue"><span class="cue-mouse"><i></i></span>Scroll</a>
+  <div class="ilkal-border"></div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="sec sec-cream" id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-regular fa-user"></i> Who I Am</span>
+      <h2 class="sec-title">About <i>Me</i></h2>
+      <span class="motif-rule"></span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-media reveal">
+        <!-- ▼ PLACEHOLDER: images/about.jpg -->
+        <div class="about-photo img-holder">
+          <div class="img-fallback">
+            <i class="fa-solid fa-camera-retro"></i>
+            <small>images/about.jpg</small>
+          </div>
+          <img src="images/profile.jpeg" alt="Dhruti Rajiv" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>Business, at its best, is a bridge — between heritage and markets, between profit and people.</p>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="lead">I'm a <strong>Grade 12 student</strong> with a strong interest in <strong>business, economics, entrepreneurship and social impact.</strong></p>
+        <p>Through initiatives such as <strong>Vellura Baking Co.</strong> and <strong>CraftGuard</strong>, I've explored how business can support communities while creating sustainable opportunities. My experiences in research, internships and student ventures have strengthened my interest in business strategy, finance, and building ventures that address real-world challenges.</p>
+        <p>I hope to pursue business studies and continue developing ideas that combine <em>commercial thinking</em> with <em>meaningful impact</em>.</p>
+
+        <div class="fact-grid">
+          <div class="fact"><i class="fa-solid fa-school"></i><div><small>School</small><b>Mallya Aditi International School</b></div></div>
+          <div class="fact"><i class="fa-solid fa-location-dot"></i><div><small>Based In</small><b>Bengaluru, Karnataka</b></div></div>
+          <div class="fact"><i class="fa-solid fa-bullseye"></i><div><small>Career Goal</small><b>Business · Finance · Enterprise</b></div></div>
+          <div class="fact"><i class="fa-solid fa-envelope"></i><div><small>Email</small><b>dhrutiirajiv10@gmail.com</b></div></div>
+        </div>
+
+        <h3 class="mini-title">Fields of Interest</h3>
+        <div class="pill-row">
+          <span class="pill"><i class="fa-solid fa-briefcase"></i>Business Strategy</span>
+          <span class="pill"><i class="fa-solid fa-rocket"></i>Entrepreneurship</span>
+          <span class="pill"><i class="fa-solid fa-chart-column"></i>Economics</span>
+          <span class="pill"><i class="fa-solid fa-coins"></i>Finance</span>
+          <span class="pill"><i class="fa-solid fa-seedling"></i>Social Enterprise</span>
+          <span class="pill"><i class="fa-solid fa-khanda"></i>Cultural Preservation</span>
+          <span class="pill"><i class="fa-solid fa-magnifying-glass-dollar"></i>Investment Research</span>
+          <span class="pill"><i class="fa-solid fa-people-group"></i>Community Impact</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="sec sec-sand" id="skills">
+  <div class="kasuti-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-gem"></i> Capabilities</span>
+      <h2 class="sec-title">My <i>Skills</i></h2>
+      <span class="motif-rule"></span>
+    </div>
+
+    <div class="tabs reveal">
+      <button class="tab active" data-tab="hard"><i class="fa-solid fa-calculator"></i> Hard Skills</button>
+      <button class="tab" data-tab="soft"><i class="fa-solid fa-heart"></i> Soft Skills</button>
+    </div>
+
+    <!-- HARD -->
+    <div class="tab-panel active" id="hard">
+      <div class="skill-grid reveal">
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-chart-line"></i></span>
+          <h4>Financial Analysis &amp; Investment Research</h4>
+          <p>Valuation thinking, investment theses, comparative company analysis.</p>
+          <div class="bar"><i data-w="95"></i></div><span class="pct">95%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-magnifying-glass-chart"></i></span>
+          <h4>Market &amp; Competitor Analysis</h4>
+          <p>Landscape mapping, positioning, demand &amp; buyer research.</p>
+          <div class="bar"><i data-w="91"></i></div><span class="pct">91%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-diagram-project"></i></span>
+          <h4>Business Models &amp; Unit Economics</h4>
+          <p>Model evaluation, contribution margin, scalability assessment.</p>
+          <div class="bar"><i data-w="90"></i></div><span class="pct">90%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-indian-rupee-sign"></i></span>
+          <h4>Budgeting, Costing, Pricing &amp; Sales</h4>
+          <p>Cost sheets, price architecture, revenue planning &amp; selling.</p>
+          <div class="bar"><i data-w="92"></i></div><span class="pct">92%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-file-lines"></i></span>
+          <h4>Economic Research &amp; Report Writing</h4>
+          <p>Published IJSSER paper; theory-led, case-study driven writing.</p>
+          <div class="bar"><i data-w="88"></i></div><span class="pct">88%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-table-columns"></i></span>
+          <h4>Excel · Power BI · Dynamics 365</h4>
+          <p>Dashboards, costing spreadsheets, ERP workflows.</p>
+          <div class="bar"><i data-w="86"></i></div><span class="pct">86%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-file-invoice-dollar"></i></span>
+          <h4>Invoice Processing &amp; Reconciliations</h4>
+          <p>Hands-on operational finance from the ITR Middle East internship.</p>
+          <div class="bar"><i data-w="87"></i></div><span class="pct">87%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-code"></i></span>
+          <h4>Website &amp; Digital Platform Development</h4>
+          <p>Built CraftGuard's catalogue, purchase &amp; bidding platform.</p>
+          <div class="bar"><i data-w="83"></i></div><span class="pct">83%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-hands-holding-circle"></i></span>
+          <h4>Social Enterprise &amp; Strategy</h4>
+          <p>Impact-first models with sustainable commercial engines.</p>
+          <div class="bar"><i data-w="94"></i></div><span class="pct">94%</span></article>
+
+        <article class="skill-card"><span class="sk-ic"><i class="fa-solid fa-bullhorn"></i></span>
+          <h4>Marketing &amp; Pitch Development</h4>
+          <p>Narrative building, decks, and competitive pitching.</p>
+          <div class="bar"><i data-w="89"></i></div><span class="pct">89%</span></article>
+      </div>
+    </div>
+
+    <!-- SOFT -->
+    <div class="tab-panel" id="soft">
+      <div class="soft-grid reveal">
+        <div class="soft-card"><i class="fa-solid fa-crown"></i><h4>Leadership</h4><p>Team coordination across ventures, clubs &amp; 20-volunteer field projects.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-puzzle-piece"></i><h4>Problem Solving</h4><p>Critical thinking applied to real market and community problems.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-comments"></i><h4>Communication</h4><p>Presenting, pitching and writing for varied audiences.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-lightbulb"></i><h4>Creativity &amp; Innovation</h4><p>New formats for old crafts; fresh models for familiar problems.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-people-arrows"></i><h4>Collaboration</h4><p>Adaptable co-founder, teammate and volunteer lead.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-compass"></i><h4>Initiative</h4><p>Independent learner — self-started research and ventures.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-list-check"></i><h4>Project Planning</h4><p>Scoping, scheduling and executing multi-month initiatives.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-hand-holding-heart"></i><h4>Empathy</h4><p>Community engagement rooted in listening first.</p></div>
+        <div class="soft-card"><i class="fa-solid fa-scale-balanced"></i><h4>Decision Making</h4><p>Weighing trade-offs between profit, people and purpose.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="sec sec-cream" id="education">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-graduation-cap"></i> Academics</span>
+      <h2 class="sec-title">Education &amp; <i>Qualifications</i></h2>
+      <span class="motif-rule"></span>
+    </div>
+
+    <div class="edu-grid">
+      <div class="timeline reveal">
+        <div class="tl-item">
+          <span class="tl-node"><i class="fa-solid fa-award"></i></span>
+          <div class="tl-card">
+            <span class="badge-now">Current</span>
+            <h3>A-Level · Grades 11–12</h3>
+            <h4>Mallya Aditi International School, Bengaluru</h4>
+            <p class="tl-year">Expected Graduation · 2027</p>
+            <p><strong>Subjects:</strong> Business · Economics · Mathematics · Physics</p>
+            <div class="grades">
+              <div class="grade"><b>AS Economics</b><span>86% · Grade A</span><i>Predicted A*</i></div>
+              <div class="grade"><b>AS Mathematics</b><span>86% · Grade A</span><i>Predicted A*</i></div>
+              <div class="grade"><b>Physics</b><span>Predicted Grade A</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <span class="tl-node"><i class="fa-solid fa-book"></i></span>
+          <div class="tl-card">
+            <h3>IGCSE · Grades 9–10</h3>
+            <h4>Mallya Aditi International School</h4>
+            <p>Completed the IGCSE curriculum, building a broad academic foundation across sciences, mathematics and humanities.</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <span class="tl-node"><i class="fa-solid fa-book-open"></i></span>
+          <div class="tl-card">
+            <h3>ICSE Curriculum · Through Grade 8</h3>
+            <p>Early schooling under the ICSE board — establishing core academic discipline and language strength.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="scores reveal">
+        <div class="score-card">
+          <div class="score-top"><h4>SAT</h4><b>1390</b></div>
+          <div class="score-row"><span>Mathematics</span><div class="track"><i data-w="94" style="--c:var(--terracotta)"><em>750</em></i></div></div>
+          <div class="score-row"><span>English</span><div class="track"><i data-w="80" style="--c:var(--indigo)"><em>640</em></i></div></div>
+        </div>
+
+        <div class="score-card">
+          <div class="score-top"><h4>IELTS</h4><b>7.5</b></div>
+          <div class="score-row"><span>Listening</span><div class="track"><i data-w="89" style="--c:var(--gold-dark)"><em>8.0</em></i></div></div>
+          <div class="score-row"><span>Reading</span><div class="track"><i data-w="89" style="--c:var(--terracotta)"><em>8.0</em></i></div></div>
+          <div class="score-row"><span>Writing</span><div class="track"><i data-w="78" style="--c:var(--maroon)"><em>7.0</em></i></div></div>
+          <div class="score-row"><span>Speaking</span><div class="track"><i data-w="78" style="--c:var(--indigo)"><em>7.0</em></i></div></div>
+        </div>
+
+        <p class="note-sm"><i class="fa-solid fa-circle-info"></i> Predicted grades are not final results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="sec sec-sand" id="projects">
+  <div class="kasuti-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-layer-group"></i> Portfolio</span>
+      <h2 class="sec-title">Projects &amp; <i>Ventures</i></h2>
+      <span class="motif-rule"></span>
+      <p class="sec-sub">Nine ventures, studies and initiatives spanning enterprise, research, culture and community.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter active" data-f="all">All</button>
+      <button class="filter" data-f="venture">Ventures</button>
+      <button class="filter" data-f="research">Research</button>
+      <button class="filter" data-f="community">Community</button>
+      <button class="filter" data-f="competition">Competitions</button>
+      <button class="filter" data-f="creative">Creative</button>
+    </div>
+
+    <div class="proj-grid" id="projGrid">
+
+      <!-- 1 CraftGuard -->
+      <article class="proj featured" data-cat="venture">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g1"><i class="fa-solid fa-khanda"></i><small>images/projects/craftguard.jpg</small></div>
+          <img src="images/projects/craftguard.png" alt="CraftGuard" loading="lazy" onerror="this.remove()">
+          <span class="ribbon">Flagship</span>
+          <a class="proj-go" href="https://craftgurad-frontend.onrender.com" target="_blank" rel="noopener" aria-label="Open CraftGuard"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Cultural Preservation</span><span>Marketplace</span><span>Founder</span></div>
+          <h3>CraftGuard</h3>
+          <p class="proj-sub">Cultural Preservation &amp; Digital Marketplace</p>
+          <p>Founded a platform spotlighting Karnataka's <strong>Kasuti embroidery</strong> and <strong>Ilkal weaving</strong>. Built digital catalogues plus a marketplace where customers can purchase products and participate in bidding — connecting artisans directly with buyers.</p>
+          <a class="btn btn-primary btn-sm" href="https://craftgurad-frontend.onrender.com" target="_blank" rel="noopener"><i class="fa-solid fa-globe"></i> Visit Live Platform</a>
+        </div>
+      </article>
+
+      <!-- 2 Vellura -->
+      <article class="proj featured" data-cat="venture">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g2"><i class="fa-solid fa-cookie-bite"></i><small>images/projects/vellura.jpg</small></div>
+          <img src="images/projects/vellura.jpg" alt="Vellura Baking Co." loading="lazy" onerror="this.remove()">
+          <span class="ribbon">Flagship</span>
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Social Enterprise</span><span>Charity</span><span>Co-founder</span></div>
+          <h3>Vellura Baking Co.</h3>
+          <p class="proj-sub">Charitable Baking Venture</p>
+          <p>Co-founded with Naira — running online sales and bake-sale events. <strong>90%</strong> of proceeds go to the <strong>Anugraha Project</strong> (education, nutrition &amp; healthcare for migrant communities in Bengaluru); 10% is reinvested.</p>
+          <div class="metrics"><div><b>1,500+</b><small>Goods Sold</small></div><div><b>₹2.5L</b><small>Donated</small></div><div><b>90%</b><small>To Charity</small></div></div>
+        </div>
+      </article>
+
+      <!-- 3 IJSSER -->
+      <article class="proj" data-cat="research">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g3"><i class="fa-solid fa-scroll"></i><small>images/projects/ijsser-paper.jpg</small></div>
+          <img src="images/projects/ijsser-paper.jpg" alt="IJSSER Research Paper" loading="lazy" onerror="this.remove()">
+          <a class="proj-go" href="https://ijsser.org/2026files/ijsser_11__319.pdf" target="_blank" rel="noopener" aria-label="Read paper"><i class="fa-solid fa-file-pdf"></i></a>
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Economics</span><span>Published</span></div>
+          <h3>Published Economics Research</h3>
+          <p class="proj-sub">IJSSER · September 2026</p>
+          <p>A peer-published paper examining how <strong>governance shapes profit and social welfare</strong>, using economic theory and real case studies.</p>
+          <a class="btn btn-primary btn-sm" href="https://ijsser.org/2026files/ijsser_11__319.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Read Full Paper</a>
+        </div>
+      </article>
+
+      <!-- 4 Kasuti Export Study -->
+      <article class="proj" data-cat="research">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g4"><i class="fa-solid fa-boxes-packing"></i><small>images/projects/kasuti-study.jpg</small></div>
+          <img src="images/projects/kasuti-study.jpg" alt="Kasuti and Ilkal export readiness study" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Research</span><span>Textiles</span><span>Export</span></div>
+          <h3>Kasuti &amp; Ilkal Export Readiness Study</h3>
+          <p class="proj-sub">Independent Research</p>
+          <p>Examined the gap between international buyer expectations and product readiness in traditional Karnataka textiles — using secondary research, product audits and direct buyer input.</p>
+        </div>
+      </article>
+
+      <!-- 5 LakeLift -->
+      <article class="proj" data-cat="community">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g5"><i class="fa-solid fa-water"></i><small>images/projects/lakelift.jpg</small></div>
+          <img src="images/projects/lakelift.jpg" alt="LakeLift" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Environment</span><span>Leadership</span></div>
+          <h3>LakeLift</h3>
+          <p class="proj-sub">Environmental Action Project</p>
+          <p>Led a team of 20 volunteers, monitored lake water quality for two weeks, identified key pollution concerns and collected 20 bags of garbage.</p>
+          <div class="metrics"><div><b>20</b><small>Volunteers</small></div><div><b>2 Wks</b><small>Monitoring</small></div><div><b>20</b><small>Bags Cleared</small></div></div>
+        </div>
+      </article>
+
+      <!-- 6 Melbourne -->
+      <article class="proj" data-cat="competition">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g6"><i class="fa-solid fa-building-columns"></i><small>images/projects/melbourne.jpg</small></div>
+          <img src="images/projects/melbourne.jpg" alt="University of Melbourne business competition" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Competition</span><span>Financial Literacy</span></div>
+          <h3>University of Melbourne Business Competition</h3>
+          <p class="proj-sub">Financial-Literacy Social Enterprise</p>
+          <p>Developed, with a team, a financial-literacy social-enterprise model for Indian schools — covering operations, financials and a full pitch within a fixed budget.</p>
+        </div>
+      </article>
+
+      <!-- 7 Ascent -->
+      <article class="proj" data-cat="research">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g7"><i class="fa-solid fa-chart-pie"></i><small>images/projects/ascent.jpg</small></div>
+          <img src="images/projects/ascent.jpg" alt="Ascent pre-IPO investment thesis" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Finance</span><span>Investment Thesis</span></div>
+          <h3>Ascent — Pre-IPO Investment Thesis</h3>
+          <p class="proj-sub">Indian Digital-Lending Sector</p>
+          <p>Analysed three Indian digital-lending companies across business models, competition, growth, unit economics and risk — then presented an investment thesis recommending <strong>Kissht</strong>.</p>
+        </div>
+      </article>
+
+      <!-- 8 KGF -->
+      <article class="proj" data-cat="community">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g8"><i class="fa-solid fa-hands-holding-child"></i><small>images/projects/kgf.jpg</small></div>
+          <img src="images/projects/kgf.jpg" alt="KGF textile factory community project" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Volunteering</span><span>Upcycling</span></div>
+          <h3>KGF Textile Factory Community Project</h3>
+          <p class="proj-sub">Textile-Waste Repurposing</p>
+          <p>Volunteered on a textile-waste repurposing project — creating decorations and a blanket, and teaching government-school students to craft items and decorate a Christmas tree.</p>
+        </div>
+      </article>
+
+      <!-- 9 Drumming -->
+      <article class="proj" data-cat="creative">
+        <div class="proj-img img-holder">
+          <div class="img-fallback g9"><i class="fa-solid fa-drum"></i><small>images/projects/drumming.jpg</small></div>
+          <img src="images/projects/drumming.png" alt="Drumming cover" loading="lazy" onerror="this.remove()">
+          <a class="proj-go" href="https://youtu.be/4cu7g1N-FAc?si=v4RM2PPUoU2JiDoT" target="_blank" rel="noopener" aria-label="Watch on YouTube"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="proj-body">
+          <div class="chips"><span>Music</span><span>Creative</span></div>
+          <h3>Drumming — Coldplay's "Yellow"</h3>
+          <p class="proj-sub">Four Years of Training</p>
+          <p>Recorded a full drum cover of Coldplay's "Yellow" after four years of drumming — a creative counterweight to the business work.</p>
+          <a class="btn btn-primary btn-sm" href="#media"><i class="fa-solid fa-play"></i> Watch Below</a>
+        </div>
+      </article>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="exp-block reveal">
+      <h3 class="mid-title"><span>Research &amp; Professional Experience</span></h3>
+      <div class="exp-grid">
+        <div class="exp"><i class="fa-solid fa-building"></i><div><h4>ITR Middle East</h4><small>Internship · Business Operations</small><p>Worked with Microsoft Dynamics 365, costing spreadsheets, reconciliations, Power BI and day-to-day business operations.</p></div></div>
+        <div class="exp"><i class="fa-solid fa-capsules"></i><div><h4>Pharmit</h4><small>Month-long Internship</small><p>Explored behavioural economics and its relationship to pharmaceutical trade.</p></div></div>
+        <div class="exp"><i class="fa-solid fa-venus"></i><div><h4>National Commission for Women</h4><small>Research Group</small><p>Researched economic and workplace barriers affecting women in under-recognised production sectors.</p></div></div>
+        <div class="exp"><i class="fa-solid fa-hands-holding-heart"></i><div><h4>Anugraha Project</h4><small>Volunteer</small><p>Clothing donation drives and art-and-craft activities with children from migrant communities.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEDIA / YOUTUBE ============ -->
+<section class="sec sec-dark" id="media">
+  <div class="wrap">
+    <div class="sec-head light reveal">
+      <span class="tag"><i class="fa-brands fa-youtube"></i> Watch</span>
+      <h2 class="sec-title">Featured <i>Media</i></h2>
+      <span class="motif-rule"></span>
+      <p class="sec-sub">A drum cover of Coldplay's "Yellow" — four years of practice in three minutes.</p>
+    </div>
+
+    <div class="video-shell reveal">
+      <div class="video-frame" id="videoFrame" data-yt="4cu7g1N-FAc">
+        <img class="yt-thumb" src="https://img.youtube.com/vi/4cu7g1N-FAc/maxresdefault.jpg" alt="Coldplay Yellow drum cover by Dhruti Rajiv"
+             onerror="this.src='https://img.youtube.com/vi/4cu7g1N-FAc/hqdefault.jpg'">
+        <button class="yt-play" aria-label="Play video"><i class="fa-solid fa-play"></i></button>
+        <div class="yt-meta">
+          <h4>Coldplay — "Yellow" · Drum Cover</h4>
+          <span><i class="fa-brands fa-youtube"></i> YouTube</span>
+        </div>
+      </div>
+      <div class="video-side">
+        <div class="vs-card"><i class="fa-solid fa-drum"></i><h4>4 Years</h4><p>of drumming training and practice</p></div>
+        <div class="vs-card"><i class="fa-solid fa-medal"></i><h4>Runner-Up</h4><p>Bounce Back Interschool Music Competition</p></div>
+        <div class="vs-card"><i class="fa-solid fa-music"></i><h4>Dance Since Age 5</h4><p>Phoenix Marketcity &amp; WSC Dubai performances</p></div>
+        <a class="btn btn-gold btn-full" href="https://youtu.be/4cu7g1N-FAc?si=vfl5FJYv-SoQC4SZ" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> Open on YouTube</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACHIEVEMENTS ============ -->
+<section class="sec sec-cream" id="achievements">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-trophy"></i> Recognition</span>
+      <h2 class="sec-title">Achievements &amp; <i>Awards</i></h2>
+      <span class="motif-rule"></span>
+    </div>
+
+    <div class="ach-grid">
+      <article class="ach ach-hero reveal">
+        <span class="ach-ic"><i class="fa-solid fa-earth-asia"></i></span>
+        <div>
+          <h3>World Scholar's Cup</h3>
+          <p>Regional <strong>third place</strong>, qualified for the <strong>Tournament of Champions at Yale University</strong>, and earned <strong>15+ medals</strong> plus a trophy across research, debate and collaborative writing.</p>
+          <div class="ach-tags"><span><i class="fa-solid fa-medal"></i> 15+ Medals</span><span><i class="fa-solid fa-trophy"></i> Trophy</span><span><i class="fa-solid fa-building-columns"></i> Yale Qualifier</span></div>
+        </div>
+      </article>
+
+      <article class="ach reveal"><span class="ach-ic"><i class="fa-solid fa-scroll"></i></span>
+        <div><h3>Published IJSSER Research Paper</h3><p>September 2026 — on how governance shapes profit and social welfare.</p>
+        <div class="ach-tags"><span><i class="fa-solid fa-feather"></i> Published Author</span></div></div></article>
+
+      <article class="ach reveal"><span class="ach-ic"><i class="fa-solid fa-guitar"></i></span>
+        <div><h3>Bounce Back Interschool Music</h3><p>Band runner-up at the interschool music competition.</p>
+        <div class="ach-tags"><span><i class="fa-solid fa-award"></i> Runner-Up</span></div></div></article>
+
+      <article class="ach reveal"><span class="ach-ic"><i class="fa-solid fa-building-columns"></i></span>
+        <div><h3>University of Melbourne Competition</h3><p>Built a financial-literacy social-enterprise model for Indian schools.</p>
+        <div class="ach-tags"><span><i class="fa-solid fa-lightbulb"></i> Social Enterprise</span></div></div></article>
+
+      <article class="ach reveal"><span class="ach-ic"><i class="fa-solid fa-shirt"></i></span>
+        <div><h3>Future Is Us — Clothing Pitch</h3><p>Second place in the clothing pitch competition.</p>
+        <div class="ach-tags"><span><i class="fa-solid fa-medal"></i> 2nd Place</span></div></div></article>
+
+      <article class="ach reveal"><span class="ach-ic"><i class="fa-solid fa-fire-flame-curved"></i></span>
+        <div><h3>Venture Club</h3><p>Sold 60+ candles with teammates, generating over ₹50,000 in revenue.</p>
+        <div class="ach-tags"><span><i class="fa-solid fa-indian-rupee-sign"></i> ₹50,000+ Revenue</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATES ============ -->
+<section class="sec sec-sand" id="certificates">
+  <div class="kasuti-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-certificate"></i> Verified</span>
+      <h2 class="sec-title">Certificates &amp; <i>Credentials</i></h2>
+      <span class="motif-rule"></span>
+      <p class="sec-sub">Click any certificate to view it full size.</p>
+    </div>
+
+    <div class="cert-grid reveal" id="certGrid">
+
+      <figure class="cert" data-src="images/certificates/ssi-scuba.jpg" data-title="SSI Scuba Diving Certification" data-desc="Open Water certification earned in Grade 9">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c1"><i class="fa-solid fa-water"></i><small>images/certificates/ssi-scuba.jpg</small></div>
+          <img src="images/certificates/ssi-scuba.png" alt="SSI Scuba Diving Certification" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>SSI Scuba Diving Certification</h4><p>Grade 9 · Adventure &amp; Water Safety</p></figcaption>
+      </figure>
+
+      <figure class="cert" data-src="images/certificates/world-scholars-cup.jpg" data-title="World Scholar's Cup" data-desc="Participation & competition recognition — Grade 8, Regional 3rd place, Yale ToC qualifier">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c2"><i class="fa-solid fa-earth-asia"></i><small>images/certificates/world-scholars-cup.jpg</small></div>
+          <img src="images/certificates/world-scholars-cup.png" alt="World Scholar's Cup certificate" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>World Scholar's Cup</h4><p>Participation &amp; Competition Recognition · Grade 8</p></figcaption>
+      </figure>
+
+      <figure class="cert" data-src="images/certificates/ielts.jpg" data-title="IELTS Test Report Form" data-desc="Overall 7.5 — Listening 8.0 · Reading 8.0 · Writing 7.0 · Speaking 7.0">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c3"><i class="fa-solid fa-language"></i><small>images/certificates/ielts.jpg</small></div>
+          <img src="images/certificates/ielts.png" alt="IELTS Test Report Form" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>IELTS Test Report Form</h4><p>Overall Band 7.5</p></figcaption>
+      </figure>
+
+      <figure class="cert" data-src="images/certificates/pharmit.jpg" data-title="Pharmit Internship Certificate" data-desc="Month-long internship exploring behavioural economics in pharmaceutical trade">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c4"><i class="fa-solid fa-capsules"></i><small>images/certificates/pharmit.jpg</small></div>
+          <img src="images/certificates/pharmit.png" alt="Pharmit internship certificate" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>Pharmit — Internship</h4><p>Behavioural Economics &amp; Pharma Trade</p></figcaption>
+      </figure>
+
+      <!-- <figure class="cert" data-src="images/certificates/master-union.jpg" data-title="Master Union Certificate" data-desc="Business & entrepreneurship programme certification">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c5"><i class="fa-solid fa-briefcase"></i><small>images/certificates/master-union.jpg</small></div>
+          <img src="images/certificates/master-union.png" alt="Master Union certificate" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>Master Union</h4><p>Business &amp; Entrepreneurship Programme</p></figcaption>
+      </figure> -->
+
+      <figure class="cert" data-src="images/certificates/itr-middle-east.jpg" data-title="ITR Middle East Internship Certificate" data-desc="Dynamics 365, Power BI, costing, reconciliations & business operations">
+        <div class="cert-img img-holder">
+          <div class="img-fallback c6"><i class="fa-solid fa-chart-simple"></i><small>images/certificates/itr-middle-east.jpg</small></div>
+          <img src="images/certificates/itr-middle-east.png" alt="ITR Middle East internship certificate" loading="lazy" onerror="this.remove()">
+          <span class="cert-zoom"><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+        </div>
+        <figcaption><h4>ITR Middle East — Internship</h4><p>Business Operations &amp; Finance</p></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACTIVITIES ============ -->
+<section class="sec sec-cream" id="activities">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-solid fa-star"></i> Beyond The Classroom</span>
+      <h2 class="sec-title">Extra-Curricular <i>Life</i></h2>
+      <span class="motif-rule"></span>
+    </div>
+
+    <div class="act-grid">
+      <div class="act act-wide reveal" style="--a:var(--terracotta)">
+        <span class="act-ic"><i class="fa-solid fa-khanda"></i></span>
+        <h3>CraftGuard</h3>
+        <p>Founded a digital initiative focused on Karnataka's Kasuti embroidery and Ilkal weaving — digital catalogues, product purchasing and a bidding system that connects artisans to markets.</p>
+        <a href="https://craftgurad-frontend.onrender.com" target="_blank" rel="noopener" class="act-link">Visit Platform <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="act reveal" style="--a:var(--maroon)">
+        <span class="act-ic"><i class="fa-solid fa-cookie-bite"></i></span>
+        <h3>Vellura Baking Co.</h3>
+        <p>Co-founded a charitable baking venture — ~1,500 baked goods sold and ~₹2.5 lakh donated.</p>
+      </div>
+
+      <div class="act reveal" style="--a:var(--indigo)">
+        <span class="act-ic"><i class="fa-solid fa-person-rays"></i></span>
+        <h3>Dance</h3>
+        <p>Training since age five. Performed at Phoenix Marketcity and WSC Dubai, choreographed group performances and competed in dance competitions.</p>
+      </div>
+
+      <div class="act reveal" style="--a:var(--gold-dark)">
+        <span class="act-ic"><i class="fa-solid fa-drum"></i></span>
+        <h3>Drumming</h3>
+        <p>Four years of experience; recorded a cover of Coldplay's "Yellow" for YouTube.</p>
+        <a href="#media" class="act-link">Watch Cover <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="act reveal" style="--a:var(--olive)">
+        <span class="act-ic"><i class="fa-solid fa-fire"></i></span>
+        <h3>Venture Club</h3>
+        <p>Sold 60+ candles with teammates, generating over ₹50,000 in revenue.</p>
+      </div>
+
+      <div class="act act-wide reveal" style="--a:var(--teal)">
+        <span class="act-ic"><i class="fa-solid fa-water"></i></span>
+        <h3>LakeLift</h3>
+        <p>Led 20 volunteers, monitored lake water for two weeks and helped collect 20 bags of garbage — turning environmental concern into measurable action.</p>
+      </div>
+
+      <div class="act reveal" style="--a:var(--indigo)">
+        <span class="act-ic"><i class="fa-solid fa-earth-asia"></i></span>
+        <h3>World Scholar's Cup</h3>
+        <p>Research, debate and collaborative academic challenges at regional and global level.</p>
+      </div>
+
+      <div class="act reveal" style="--a:var(--terracotta)">
+        <span class="act-ic"><i class="fa-solid fa-mountain-sun"></i></span>
+        <h3>Adventure</h3>
+        <p>Scuba diving, skydiving, kayaking, rafting, climbing and outdoor survival camps.</p>
+      </div>
+
+      <div class="act reveal" style="--a:var(--maroon)">
+        <span class="act-ic"><i class="fa-solid fa-hands-holding-heart"></i></span>
+        <h3>Volunteering</h3>
+        <p>Anugraha Project clothing donations and art-and-craft sessions with children; Interact Club blood donation camps and other community initiatives.</p>
+      </div>
+    </div>
+
+    <div class="impact-note reveal">
+      <span class="in-ic"><i class="fa-solid fa-heart"></i></span>
+      <div>
+        <h4>Where The Impact Goes</h4>
+        <p><strong>Vellura Baking Co.</strong> donates <strong>90%</strong> of proceeds to the <strong>Anugraha Project</strong> and reinvests 10% into the venture. Anugraha supports migrant communities in Bengaluru through education, nutrition and healthcare. <strong>CraftGuard</strong> focuses on preserving Karnataka's traditional textile crafts and improving artisans' access to markets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="sec sec-sand" id="contact">
+  <div class="kasuti-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag"><i class="fa-regular fa-paper-plane"></i> Say Hello</span>
+      <h2 class="sec-title">Let's <i>Connect</i></h2>
+      <span class="motif-rule"></span>
+      <p class="sec-sub">Collaboration, questions, or just a conversation about business and culture — I'd love to hear from you.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-side reveal">
+        <a class="cbox" href="mailto:dhrutiirajiv10@gmail.com"><span><i class="fa-solid fa-envelope"></i></span><div><small>Email</small><b>dhrutiirajiv10@gmail.com</b></div></a>
+        <a class="cbox" href="tel:+919611047605"><span><i class="fa-solid fa-phone"></i></span><div><small>Phone</small><b>+91 96110 47605</b></div></a>
+        <div class="cbox"><span><i class="fa-solid fa-location-dot"></i></span><div><small>Location</small><b>Bengaluru, Karnataka, India</b></div></div>
+        <a class="cbox" href="https://craftgurad-frontend.onrender.com" target="_blank" rel="noopener"><span><i class="fa-solid fa-globe"></i></span><div><small>Venture</small><b>CraftGuard Platform</b></div></a>
+
+        <h4 class="mini-title">Find Me Online</h4>
+        <div class="soc-row">
+          <a href="https://www.linkedin.com/in/dhruti-rajiv" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+          <a href="https://www.instagram.com/dhrutirajiv" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+          <a href="https://youtu.be/4cu7g1N-FAc" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i> YouTube</a>
+          <a href="https://ijsser.org/2026files/ijsser_11__319.pdf" target="_blank" rel="noopener"><i class="fa-solid fa-file-pdf"></i> Research</a>
+        </div>
+      </div>
+
+      <div class="contact-form-box reveal">
+        <form id="contactForm" novalidate>
+          <div class="fld"><input type="text" id="cname" name="name" placeholder=" " required><label for="cname">Your Name</label></div>
+          <div class="fld"><input type="email" id="cmail" name="email" placeholder=" " required><label for="cmail">Your Email</label></div>
+          <div class="fld"><input type="text" id="csub" name="subject" placeholder=" " required><label for="csub">Subject</label></div>
+          <div class="fld"><textarea id="cmsg" name="message" rows="5" placeholder=" " required></textarea><label for="cmsg">Your Message</label></div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fa-regular fa-paper-plane"></i></button>
+          <p class="form-hint"><i class="fa-solid fa-circle-info"></i> This opens your email app with the message ready to send.</p>
+        </form>
+        <div class="form-done" id="formDone">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Thank You!</h3>
+          <p>Your email client should have opened. I'll reply as soon as I can.</p>
+          <button class="btn btn-ghost btn-sm" id="formReset">Write Another</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="ilkal-border top"></div>
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <a href="#home" class="brand"><span class="brand-mark">DR</span><span class="brand-text">Dhruti Rajiv</span></a>
+      <p>Building ventures where commerce meets culture — preserving craft, funding community, and learning business the practical way.</p>
+      <div class="foot-soc">
+        <a href="https://www.linkedin.com/in/dhruti-rajiv" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/dhrutirajiv" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://youtu.be/4cu7g1N-FAc" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="mailto:dhrutiirajiv10@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="foot-col"><h5>Explore</h5>
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#projects">Projects</a></div>
+    <div class="foot-col"><h5>More</h5>
+      <a href="#media">Media</a><a href="#achievements">Awards</a><a href="#certificates">Certificates</a><a href="#activities">Activities</a></div>
+    <div class="foot-col"><h5>External</h5>
+      <a href="https://craftgurad-frontend.onrender.com" target="_blank" rel="noopener">CraftGuard ↗</a>
+      <a href="https://ijsser.org/2026files/ijsser_11__319.pdf" target="_blank" rel="noopener">IJSSER Paper ↗</a>
+      <a href="https://youtu.be/4cu7g1N-FAc" target="_blank" rel="noopener">YouTube Cover ↗</a>
+      <a href="mailto:dhrutiirajiv10@gmail.com">Email Me ↗</a></div>
+  </div>
+  <div class="wrap foot-bottom">
+    <p>&copy; <span id="yr">2025</span> Dhruti Rajiv · Bengaluru, India</p>
+    <p class="made">Designed with heritage in mind</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+  <button class="lb-close" id="lbClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+  <button class="lb-nav lb-next" id="lbNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+  <figure class="lb-inner">
+    <div class="lb-imgwrap">
+      <div class="lb-fallback" id="lbFallback"><i class="fa-solid fa-image"></i><p>Certificate image not added yet</p><small id="lbPath"></small></div>
+      <img id="lbImg" src="" alt="">
+    </div>
+    <figcaption><h4 id="lbTitle"></h4><p id="lbDesc"></p></figcaption>
+  </figure>
+</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

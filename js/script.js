@@ -293,21 +293,9 @@
       });
     }
 
-    /* ---------------- YOUTUBE FACADE ---------------- */
-    const vf = $('#videoFrame');
-    if (vf) {
-      vf.addEventListener('click', () => {
-        if (vf.classList.contains('playing')) return;
-        const id = vf.dataset.yt;
-        const ifr = document.createElement('iframe');
-        ifr.src = `https://www.youtube.com/embed/${id}?autoplay=1&rel=0&modestbranding=1`;
-        ifr.title = 'Coldplay Yellow — Drum Cover by Dhruti Rajiv';
-        ifr.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-        ifr.allowFullscreen = true;
-        vf.appendChild(ifr);
-        vf.classList.add('playing');
-      });
-    }
+        /* ---------------- YOUTUBE (direct iframe — no facade) ---------------- */
+    // Video is now embedded directly via <iframe> in the HTML.
+    // No JS needed here. Keeping block for structure.
 
     /* ---------------- CERTIFICATE LIGHTBOX ---------------- */
     const certs = $$('.cert');

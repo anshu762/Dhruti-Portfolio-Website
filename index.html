@@ -560,15 +560,29 @@
     </div>
 
     <div class="video-shell reveal">
-      <div class="video-frame" id="videoFrame" data-yt="4cu7g1N-FAc">
-        <img class="yt-thumb" src="https://img.youtube.com/vi/4cu7g1N-FAc/maxresdefault.jpg" alt="Coldplay Yellow drum cover by Dhruti Rajiv"
-             onerror="this.src='https://img.youtube.com/vi/4cu7g1N-FAc/hqdefault.jpg'">
-        <button class="yt-play" aria-label="Play video"><i class="fa-solid fa-play"></i></button>
-        <div class="yt-meta">
-          <h4>Coldplay — "Yellow" · Drum Cover</h4>
-          <span><i class="fa-brands fa-youtube"></i> YouTube</span>
-        </div>
-      </div>
+      <a
+        class="video-frame video-watch-link"
+        id="videoFrame"
+        href="https://www.youtube.com/watch?v=4cu7g1N-FAc"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Watch Dhruti Rajiv's Coldplay Yellow drum cover on YouTube (opens in a new tab)"
+        >
+        <img
+            class="yt-thumb"
+            src="./images/projects/drumming.png"
+            alt="Thumbnail for Dhruti Rajiv's Coldplay Yellow drum cover"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='https://img.youtube.com/vi/4cu7g1N-FAc/hqdefault.jpg';"
+        >
+        <span class="yt-play" aria-hidden="true">
+            <i class="fa-solid fa-play"></i>
+        </span>
+        <span class="yt-meta">
+            <strong>Coldplay — “Yellow” · Drum Cover</strong>
+            <span><i class="fa-brands fa-youtube"></i> Watch on YouTube</span>
+        </span>
+        </a>
       <div class="video-side">
         <div class="vs-card"><i class="fa-solid fa-drum"></i><h4>4 Years</h4><p>of drumming training and practice</p></div>
         <div class="vs-card"><i class="fa-solid fa-medal"></i><h4>Runner-Up</h4><p>Bounce Back Interschool Music Competition</p></div>

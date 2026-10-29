@@ -451,7 +451,7 @@ html[data-theme="dark"] .icon-btn .fa-sun{display:block}
 .soft-card p{font-size:.81rem;color:var(--ink-2);line-height:1.6}
 
 /* ---------- EDUCATION ---------- */
-.edu-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:start}
+.edu-grid{display:grid;grid-template-columns:2fr;gap:56px;align-items:start}
 .timeline{position:relative;padding-left:46px}
 .timeline::before{content:'';position:absolute;left:17px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--terracotta),var(--gold),var(--indigo),transparent)}
 .tl-item{position:relative;margin-bottom:30px}
